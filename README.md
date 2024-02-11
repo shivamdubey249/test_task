@@ -5,20 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 3.0.1
 
 * System dependencies
 
 * Configuration
+* for configration need to run bundle install
 
 * Database creation
+* it's default squlite3 database
 
 * Database initialization
 
 * How to run the test suite
+  bundle exec rspec spec/string_calculator_spec.rb
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+It will run rspecs and check the code.
 * ...
